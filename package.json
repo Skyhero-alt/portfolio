@@ -1,17 +1,17 @@
 {
-  "name": "nextjs-notion-starter-kit",
+  "name": "portflio",
   "version": "2.0.0",
   "private": true,
-  "description": "The perfect starter kit for building beautiful websites with Next.js and Notion.",
-  "author": "Travis Fischer <travis@transitivebullsh.it>",
-  "repository": "transitive-bullshit/nextjs-notion-starter-kit",
+  "description": "Sayed Mohammed Nouman | Full Stack Developer | Programmer",
+  "author": "Sayed Mohammed Nouman",
+  "repository": "Skyhero-alt/portfolio",
   "license": "MIT",
   "engines": {
     "node": ">=16"
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "deploy": "vercel deploy",
     "deps": "run-s deps:*",
