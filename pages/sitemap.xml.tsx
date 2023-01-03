@@ -53,4 +53,4 @@ const createSitemap = (siteMap: SiteMap) =>
       .join('')}
   </urlset>
 `
-
+export default () => null

@@ -42,3 +42,4 @@ Sitemap: ${host}/sitemap.xml
   }
 }
 
+export default () => null
