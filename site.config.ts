@@ -11,7 +11,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Sayed Mohammed Nouman',
-  domain: 'skyhero.cf',
+  domain: 'skyhero.me',
   author: 'Sayed Mohammed Nouman',
 
   // open graph metadata (optional)
