@@ -13,9 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${karla.className} flex`}>
+      <body className={`${karla.className} flex max-w-screen`}>
         <Navbar />
-        {children}
+        <div className="md:ml-[250px]">{children}</div>
       </body>
     </html>
   );

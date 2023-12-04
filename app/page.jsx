@@ -31,7 +31,7 @@ export default function Home() {
         >
           TIFR
         </a>
-        . I am also learnig a few new technologies like Messaging Queues and
+        . I am also learning a few new technologies like Messaging Queues and
         Kubernetes.
       </p>
     </div>

@@ -39,7 +39,7 @@ export default function Where() {
   ];
 
   return (
-    <div className="ml-12 my-14 w-full mr-12">
+    <div className="ml-10 my-14 w-full">
       <h1 className="text-3xl font-bold text-gray-200">Where I've done it</h1>
       <h3 className="text-lg font-bold text-gray-200 mt-3">Companies</h3>
 
