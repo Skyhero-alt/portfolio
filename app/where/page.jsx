@@ -39,7 +39,7 @@ export default function Where() {
   ];
 
   return (
-    <div className="ml-10 my-14 w-full">
+    <div className="ml-8 mr-8 my-14">
       <h1 className="text-3xl font-bold text-gray-200">Where I've done it</h1>
       <h3 className="text-lg font-bold text-gray-200 mt-3">Companies</h3>
 
@@ -52,7 +52,7 @@ export default function Where() {
       <h3 className="text-lg font-bold text-gray-200 mt-4">
         Some Of My Projects
       </h3>
-      <div className="mt-4 flex flex-col">
+      <div className="mt-4 flex flex-col gap-2">
         {projectData.map((project) => (
           <ProjectCard key={project.name} {...project} />
         ))}

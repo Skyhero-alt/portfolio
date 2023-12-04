@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${karla.className} flex max-w-screen`}>
         <Navbar />
-        <div className="md:ml-[250px]">{children}</div>
+        <div className="md:ml-[250px] w-full">{children}</div>
       </body>
     </html>
   );

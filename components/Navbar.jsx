@@ -22,7 +22,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="fixed text-md h-screen pl-8 max-w-[250px] w-full border-r-gray-900 border-r-[1px] py-8">
+      <div className="md:fixed hidden md:block text-md h-screen pl-8 max-w-[250px] w-full border-r-gray-900 border-r-[1px] py-8">
         <ul>
           <li className="text-md text-gray-300 font-bold my-4">
             <span>Sayed Nouman</span>
