@@ -29,10 +29,10 @@ export default function Home() {
           rel="noopener noreferrer"
           className="text-green-400"
         >
-          TIFR
+          TIFR{" "}
         </a>
-        . I am also learning a few new technologies like Messaging Queues and
-        Kubernetes.
+        which uses PHP and CodeIgniter 4. I am also learning a few new
+        technologies like Messaging Queues and Kubernetes.
       </p>
     </div>
   );

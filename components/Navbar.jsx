@@ -5,7 +5,7 @@ import { BsCursor } from "react-icons/bs";
 import useSound from "use-sound";
 import { usePathname } from "next/navigation";
 import { useRouter } from "next/navigation";
-import { FaGithub } from "react-icons/fa";
+import { FiGithub } from "react-icons/fi";
 import { FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 
@@ -86,7 +86,7 @@ function Navbar() {
         </ul>
         <div className="absolute bottom-0 left-0 items-center justify-center flex w-full mb-8">
           <Link href="https://github.com/Skyhero-alt">
-            <FaGithub className="text-gray-400 text-2xl hover:text-gray-200 cursor-pointer" />
+            <FiGithub className="text-gray-400 text-2xl hover:text-gray-200 cursor-pointer" />
           </Link>
           <Link href="https://www.linkedin.com/in/skyhero/">
             <FaLinkedin className="text-gray-400 text-2xl hover:text-gray-200 cursor-pointer ml-4" />

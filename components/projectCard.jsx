@@ -9,7 +9,7 @@ export default function ProjectCard({ name, language, description, link }) {
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex flex-col md:flex-row bg-gray-600 bg-opacity-0 rounded-lg hover:bg-opacity-20"
+        className="flex flex-col md:flex-row bg-gray-600 bg-opacity-0 rounded-lg hover:bg-opacity-30"
       >
         <div className="md:w-40 py-5 pl-4 w-full h-full text-sm border-r-gray-900 border-r-[1px]">
           <pre>name</pre>
