@@ -21,13 +21,14 @@ export default function Where() {
       language: "Javascript",
       description:
         "A chat application built using Next.js and Tailwind CSS. PostgreSQL is used for database and Socket.io for real-time updates.",
-      link: "https://github.com/Skyhero-alt/weframe-chat",
+      link: "https://github.com/Skyhero-alt/weframe_chat",
     },
     {
       name: "Another-yt-cli",
       language: "Python",
       description:
         "A cli application to watch and query youtube right from your terminal 😁. Built using beautifulsoup4 to scrape video sources from youtube",
+      link: "https://github.com/Skyhero-alt/another-yt-cli",
     },
     {
       name: "Couponzo",
@@ -39,7 +40,7 @@ export default function Where() {
   ];
 
   return (
-    <div className="ml-8 mr-8 my-14">
+    <div className="ml-8 mr-8 my-16 md:mt-12">
       <h1 className="text-3xl font-bold text-gray-200">Where I've done it</h1>
       <h3 className="text-lg font-bold text-gray-200 mt-3">Companies</h3>
 
