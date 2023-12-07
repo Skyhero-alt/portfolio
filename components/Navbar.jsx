@@ -104,13 +104,13 @@ function Navbar() {
       <div className="md:hidden fixed top-0 left-0 bg-opacity-75 bg-black backdrop-blur-lg w-full h-16 border-t-gray-900 border-t-[1px]">
         <div className="text-md text-gray-300 mx-8 font-bold mt-4 flex">
           <span className="w-64">Sayed Nouman</span>
-          <button
-            className="w-full flex justify-end items-center"
-            onClick={() => {
-              setToggleNav(!toggleNav);
-            }}
-          >
-            <RxHamburgerMenu className="text-xl text-gray-300 inline-block" />
+          <button className="w-full flex justify-end items-center">
+            <RxHamburgerMenu
+              onClick={() => {
+                setToggleNav(!toggleNav);
+              }}
+              className="text-xl text-gray-300 inline-block"
+            />
           </button>
         </div>
 
