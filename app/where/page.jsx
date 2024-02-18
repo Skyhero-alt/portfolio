@@ -4,13 +4,23 @@ import ProjectCard from "@/components/projectCard";
 export default function Where() {
   const companyData = [
     {
+      name: "Tata Institute of Fundamental Research",
+      logo: "/images/tifrLogo.png",
+      category: "Research Institute",
+      role: "Project Intern (Web Development)",
+      whatIDo:
+        "I developed an IT inventory management system using LAMP stack for keeping track of assets, users, and their roles, Invoices and purchase orders. I used CodeIgniter for the backend and Alpine js for the frontend interactivity.",
+      duration: "Since Aug '23",
+      link: "https://www.tifr.res.in/",
+    },
+    {
       name: "TechNode Systems",
       logo: "/images/transLogo.png",
       category: "IoT Company",
       role: "Frontend Engineer",
       whatIDo:
         "I developed an IoT monitoring dashboard, enhancing real-time visibility, and revamped the frontend using Next.js and Tailwind CSS. Implemented customizable widgets, integrated Socket.io for live updates, and configured the production Nginx server for smooth service delivery.",
-      duration: "May '23 - Nov '23",
+      duration: "May '23 - Oct '23",
       link: "http://technodes.in/",
     },
   ];
@@ -44,7 +54,7 @@ export default function Where() {
       <h1 className="text-3xl font-bold text-gray-200">Where I've done it</h1>
       <h3 className="text-lg font-bold text-gray-200 mt-3">Companies</h3>
 
-      <div className="mt-4 flex flex-wrap">
+      <div className="mt-4 flex flex-wrap gap-5">
         {companyData.map((company) => (
           <CompanyCard key={company.name} {...company} />
         ))}
