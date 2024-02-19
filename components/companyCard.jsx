@@ -10,7 +10,7 @@ export default function CompanyCard({
   link,
 }) {
   return (
-    <div className="border-[1px] my-4 min-h-96 h-full pb-4 border-gray-900 bg-zinc-950 bg-opacity-0 max-w-xl w-full rounded-lg cursor-pointer hover:scale-110 transition-all hover:bg-opacity-100">
+    <div className="border-[1px] my-4 min-h-96 h-full pb-4 border-gray-900 bg-zinc-950 bg-opacity-0 min-[750px]:w-full lg:max-w-[45%] w-full rounded-lg cursor-pointer hover:scale-110 transition-all hover:bg-opacity-100">
       <a href={link} target="_blank" rel="noreferrer">
         <div className="flex flex-col mx-2 h-full">
           <div className="h-24 bg-cover flex border-b-[1px] border-b-gray-900 p-5 w-full rounded-t-lg">

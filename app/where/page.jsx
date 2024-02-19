@@ -21,7 +21,7 @@ export default function Where() {
       whatIDo:
         "I developed an IoT monitoring dashboard, enhancing real-time visibility, and revamped the frontend using Next.js and Tailwind CSS. Implemented customizable widgets, integrated Socket.io for live updates, and configured the production Nginx server for smooth service delivery.",
       duration: "May '23 - Oct '23",
-      link: "http://technodes.in/",
+      link: "https://technode.co.in/",
     },
   ];
 
