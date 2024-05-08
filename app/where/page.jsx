@@ -10,14 +10,14 @@ export default function Where() {
       role: "Project Intern (Web Development)",
       whatIDo:
         "I developed an IT inventory management system using LAMP stack for keeping track of assets, users, and their roles, Invoices and purchase orders. I used CodeIgniter for the backend and Alpine js for the frontend interactivity.",
-      duration: "Since Aug '23",
+      duration: "Aug '23 - May '24",
       link: "https://www.tifr.res.in/",
     },
     {
       name: "TechNode Systems",
       logo: "/images/transLogo.png",
       category: "IoT Company",
-      role: "Frontend Engineer",
+      role: "Frontend Engineering Intern",
       whatIDo:
         "I developed an IoT monitoring dashboard, enhancing real-time visibility, and revamped the frontend using Next.js and Tailwind CSS. Implemented customizable widgets, integrated Socket.io for live updates, and configured the production Nginx server for smooth service delivery.",
       duration: "May '23 - Oct '23",
