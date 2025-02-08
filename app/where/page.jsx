@@ -4,6 +4,17 @@ import ProjectCard from "@/components/projectCard";
 export default function Where() {
   const companyData = [
     {
+      name: "QAD Inc.",
+      logo: "/images/qadLogo.jpg",
+      category: "Software Company",
+      role: "Graduate Engineering Trainee",
+      whatIDo:
+        // something related to creating new menus and browses and fixing reports
+        "I am working on the QAD Enterprise Applications, a cloud-based ERP system. I developed new menus, browses, and reports using Progress 4GL and QAD's proprietary tools.",
+      duration: "Aug '24 - Present",
+      link: "https://www.qad.com/",
+    },
+    {
       name: "Tata Institute of Fundamental Research",
       logo: "/images/tifrLogo.png",
       category: "Research Institute",
