@@ -7,7 +7,7 @@ export default function Where() {
       name: "QAD Inc.",
       logo: "/images/qadLogo.jpg",
       category: "Software Company",
-      role: "Graduate Engineering Trainee",
+      role: "Associate Software Engineer",
       whatIDo:
         // something related to creating new menus and browses and fixing reports
         "I am working on the QAD Enterprise Applications, a cloud-based ERP system. I developed new menus, browses, and reports using Progress 4GL and QAD's proprietary tools.",
